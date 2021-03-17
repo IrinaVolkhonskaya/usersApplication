@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1015,
+        "first_name": "орьроь",
+        "last_name": "ротор",
+        "birth_date": "2021-01-20",
+        "gender": "male",
+        "job": "орьро",
+        "biography": "роьро",
+        "is_active": false
+    },
+    {
+        "id": 1010,
+        "first_name": "First",
+        "last_name": "Last",
+        "birth_date": "2021-01-06",
+        "gender": "male",
+        "job": "ewrwerwer",
+        "biography": "ewrewrewr",
+        "is_active": false
+    },
+    {
+        "id": 1016,
+        "first_name": "dfgb",
+        "last_name": "dfgbfg",
+        "birth_date": "2021-01-20",
+        "gender": "male",
+        "job": "bfgbgf",
+        "biography": "bfgbfg",
+        "is_active": true
+    },
+    {
+        "id": 1017,
+        "first_name": "Петя",
+        "last_name": "Пользователь",
+        "birth_date": "2000-04-28",
+        "gender": "male",
+        "job": "пенсионер",
+        "biography": "ля-ля-ля",
+        "is_active": true
+    },
+    {
+        "id": 1014,
+        "first_name": "oromikh",
+        "last_name": "Jordan",
+        "birth_date": "1981-04-15",
+        "gender": "male",
+        "job": "dev",
+        "biography": "dev",
+        "is_active": true
+    },
+    {
+        "id": 1013,
+        "first_name": "р",
+        "last_name": "хъ ьоь олбол",
+        "birth_date": "2021-01-13",
+        "gender": "female",
+        "job": "ьро ьр",
+        "biography": "gh  hg о оьоь оьоь о о оьоьоьоьоьоь оьо оьоьоьоь роьорьорьорьорьорь ор ьрьорьроьроьроьрм",
+        "is_active": false
+    }
+]
