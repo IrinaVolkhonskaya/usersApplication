@@ -1,10 +1,11 @@
 import axios from "axios";
+import { Dispatch } from 'redux';
 import actions from "./usersActions";
-import {IUser, IUsers} from '../components/models';
+import { IUser } from '../components/models';
 
-const BASE_URL = "http://localhost:4000/users";
+const BASE_URL = "http://localhost:4040/users";
 
-const fetchUsers = () => async (dispatch) => {
+const fetchUsers = () => async (dispatch: Dispatch) => {
   dispatch(actions.fetchRequest());
 
   try {
@@ -24,10 +25,10 @@ const addUser = ({
   job,
   biography,
   is_active,
-}: IUser) => (dispatch) => {
+}: IUser) => (dispatch: Dispatch) => {
   dispatch(actions.fetchRequest());
 
-    axios
+  axios
     .post(BASE_URL, {
       first_name,
       last_name,
@@ -41,10 +42,10 @@ const addUser = ({
     .catch((error) => dispatch(actions.fetchError(error)));
 };
 
-const deleteUser = (id:number) => (dispatch) => {
+const deleteUser = (id: number) => (dispatch: Dispatch) => {
   dispatch(actions.fetchRequest());
 
-   axios
+  axios
     .delete(`${BASE_URL}/${id}`)
     .then(() => {
       dispatch(actions.deleteUser(id));
@@ -54,7 +55,7 @@ const deleteUser = (id:number) => (dispatch) => {
     });
 };
 
-const getUserById = (id: number) => (dispatch) => {
+const getUserById = (id: number) => (dispatch: Dispatch) => {
   dispatch(actions.fetchRequest());
 
   axios
@@ -76,7 +77,7 @@ const updateUser = ({
   job,
   biography,
   is_active,
-}: IUser) => (dispatch) => {
+}: IUser) => (dispatch: Dispatch) => {
   dispatch(actions.fetchRequest());
 
   axios

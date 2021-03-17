@@ -5,7 +5,7 @@ const ADD_USER = "ADD_USER";
 const DELETE_USER = "DELETE_USER";
 const UPDATE_USER = "UPDATE_USER";
 const GET_USER_BY_ID = 'GET_USER_BY_ID';
-const GET_USER_ID = 'GET_USER_ID';
+
 
 
 // eslint-disable-next-line import/no-anonymous-default-export
@@ -17,7 +17,7 @@ export default {
   DELETE_USER,
   UPDATE_USER,
   GET_USER_BY_ID,
-  GET_USER_ID
+
 };
 
 

@@ -8,7 +8,7 @@ interface UserProps {
 }
 
 interface NavigationProps {
-  items: Array<UserProps>,
+  items: UserProps[],
 }
 
 const Navigation: React.FC<NavigationProps> = ({ items = [] }): JSX.Element => (

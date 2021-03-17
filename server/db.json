@@ -147,38 +147,8 @@
       "gender": "male",
       "job": "student",
       "biography": "bnjhgltkyrdxtgjxfcmgvn,b.lihulygfudtxfhcmnb ",
-      "is_active": true,
-      "id": 1070
-    },
-    {
-      "first_name": "Alex",
-      "last_name": "Fisher",
-      "birth_date": "1996-02-15",
-      "gender": "male",
-      "job": "student",
-      "biography": "bnjhgltkyrdxtgjxfcmgvn,b.lihulygfudtxfhcmnb ",
       "is_active": false,
       "id": 1072
-    },
-    {
-      "first_name": "Alex",
-      "last_name": "Fisher",
-      "birth_date": "1996-02-15",
-      "gender": "male",
-      "job": "student",
-      "biography": "bnjhgltkyrdxtgjxfcmgvn,b.lihulygfudtxfhcmnb ",
-      "is_active": false,
-      "id": 1073
-    },
-    {
-      "first_name": "Alex",
-      "last_name": "Fisher",
-      "birth_date": "1996-02-15",
-      "gender": "male",
-      "job": "student",
-      "biography": "bnjhgltkyrdxtgjxfcmgvn,b.lihulygfudtxfhcmnb ",
-      "is_active": false,
-      "id": 1074
     },
     {
       "first_name": "Andrew",
@@ -189,6 +159,36 @@
       "biography": ";kjlhkhbvgfcxjdzsrfzdghdjfghj/lm.",
       "is_active": true,
       "id": 1075
+    },
+    {
+      "first_name": "Alex",
+      "last_name": "SVS",
+      "birth_date": "2001-02-25",
+      "gender": "female",
+      "job": "developer",
+      "biography": "lknhhliughjbjn.l/;/.",
+      "is_active": true,
+      "id": 1077
+    },
+    {
+      "first_name": "Alex",
+      "last_name": "SVS",
+      "birth_date": "2001-02-25",
+      "gender": "female",
+      "job": "developer",
+      "biography": "lknhhliughjbjn.l/;/.",
+      "is_active": true,
+      "id": 1078
+    },
+    {
+      "first_name": "Alex",
+      "last_name": "SVS",
+      "birth_date": "2001-02-25",
+      "gender": "female",
+      "job": "developer",
+      "biography": "lknhhliughjbjn.l/;/.",
+      "is_active": true,
+      "id": 1082
     }
   ]
 }
