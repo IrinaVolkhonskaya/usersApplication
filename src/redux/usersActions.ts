@@ -1,23 +1,25 @@
 import shortid from "shortid";
-import types from "./usersActionTypes";
-import {IUser, IUsers} from '../components/models';
+import { FETCH_REQUEST, FETCH_SUCCESS, FETCH_ERROR, GET_USER_BY_ID, ADD_USER, DELETE_USER, UPDATE_USER, UserActionTypes, FetchActionTypes } from "./usersActionTypes";
+
+import { IUser, IUsers } from '../components/models';
+
 
 const fetchRequest = () => ({
-  type: types.FETCH_REQUEST,
+  type: FETCH_REQUEST,
 });
 
-const fetchSuccess = (users: IUsers) => ({
-  type: types.FETCH_SUCCESS,
+const fetchSuccess = (users: IUsers): FetchActionTypes => ({
+  type: FETCH_SUCCESS,
   payload: users,
 });
 
-const fetchError = (error: string) => ({
-  type: types.FETCH_ERROR,
+const fetchError = (error: string): FetchActionTypes => ({
+  type: FETCH_ERROR,
   payload: error,
 });
 
-const getUserById = (userId: number) => ({
-  type: types.GET_USER_BY_ID,
+const getUserById = (userId: number): UserActionTypes => ({
+  type: GET_USER_BY_ID,
   payload: userId,
 });
 
@@ -29,8 +31,8 @@ const addUser = ({
   job,
   biography,
   is_active,
-}: IUser) => ({
-  type: types.ADD_USER,
+}: IUser): UserActionTypes => ({
+  type: ADD_USER,
   payload: {
     id: shortid.generate(),
     first_name,
@@ -43,8 +45,8 @@ const addUser = ({
   },
 });
 
-const deleteUser = (id: number) => ({
-  type: types.DELETE_USER,
+const deleteUser = (id: number): UserActionTypes => ({
+  type: DELETE_USER,
   payload: id,
 });
 
@@ -70,8 +72,8 @@ const updateUser = ({
   job,
   biography,
   is_active,
-}:IUser) => ({
-  type: types.UPDATE_USER,
+}: IUser): UserActionTypes => ({
+  type: UPDATE_USER,
   payload: {
     id,
     first_name,
